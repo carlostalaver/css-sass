@@ -3,5 +3,46 @@ body {
   font-size: 18px;
   color: red; }
 
-#container {
-  width: 680px; }
+#contenedor {
+  background: yellow;
+  width: 800px;
+  margin: 10px auto;
+  height: 500px;
+}
+
+#contenedor #cabecera  {
+  height: 20%;
+  background-color: red;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1, h2{
+  color: black;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+#menu {
+  float: left;
+  width: 15%;
+  background: blue;
+  min-height: 300px;
+}
+
+#contenido {
+  float: left;
+  width: 85%;
+  background: green;
+  min-height: 300px;
+}
+
+#pie {
+  border: 1px solid orangered;
+  clear: both;
+  height: 20%;
+  background: pink;
+}
+
+#menu h2, #contenido h2 {
+  padding-top: 20px;
+}
