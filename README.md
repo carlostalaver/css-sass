@@ -27,8 +27,8 @@ _Que cosas necesitas para instalar el software y como instalarlas_
   
   ## Nota: para solventar el error al guardar automaticamente
   
-   _Tuve que usar la versión 4.9.0 de node-sass y reemplazar el archivo render.js por el indicado en este link https://github.com/marcosbozzani/node-sass/blob/bug-vscode-watch/lib/render.js](Render.js)_
+   _Tuve que usar la versión 4.9.0 de node-sass y reemplazar el archivo render.js por el indicado en este link [Render.js](https://github.com/marcosbozzani/node-sass/blob/bug-vscode-watch/lib/render.js)_
 
-  _Para mayor información [https://github.com/sass/node-sass/issues/1894#issuecomment-390199128](aquí)._
+  _Para mayor información [aquí](https://github.com/sass/node-sass/issues/1894#issuecomment-390199128)._
     
   
