@@ -1,0 +1,15 @@
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 48px;
+$myWidth: 680px;
+$anchoContenedor : 877px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+#contenedor {
+  width: $anchoContenedor;
+}

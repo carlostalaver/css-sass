@@ -1,15 +1,34 @@
-# En este proyecto configuro el ambiente para trabajar con sass
-  1 - Trabajando con nodeJs versión v10.16.0
-  2 - Trabajando con npm versión 6.10.0
+# Sass start
+   Iniciando con sass
 
-# Para configurar el proyecto:
+## Comenzando 🚀
+
+### Pre-requisitos 📋
+
+_Que cosas necesitas para instalar el software y como instalarlas_
+  * [Node](https://nodejs.org/es/)        - v10.16.0
+  * [Npm](https://www.npmjs.com/get-npm)  - 6.10.0
+  * [Sass](https://sass-lang.com/)        - 4.9.0
+
+## Para configurar el proyecto:
   1 - npm init -y (Para crear el archivo package.json)
-  2 - npm install node-sass [-g]
-  3 - En el archivo package.json incluir 
+  2 - npm install node-sass@4.9.0  [-g]
+
+
+### En el archivo package.json incluir 
+    _Para establecer el guardado automatico_
+    ```
           "scripts": {
             "test": "echo \"Error: no test specified\" && exit 1",
             "sass": "node-sass -w sass / -o css /"
           }
+    ```
+    _para compile automaticamente de sass a css._
+  
+  ## Nota: para solventar el error al guardar automaticamente
+  
+   _Tuve que usar la versión 4.9.0 de node-sass y reemplazar el archivo render.js por el indicado en este link https://github.com/marcosbozzani/node-sass/blob/bug-vscode-watch/lib/render.js](Render.js)_
 
-      para compile automaticamente de sass a css.
+  _Para mayor información [https://github.com/sass/node-sass/issues/1894#issuecomment-390199128](aquí)._
+    
   

@@ -1,0 +1,23 @@
+#layout > header {
+  background-image: url("../../queen.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: right top;
+  min-height: 150px;
+}
+
+header > h1 {
+  color: white;
+  display: inline;
+}
+
+
+header > p {
+  color: white;
+  display: inline;
+  background: black;
+}
+
+/* nav {
+  margin-top: 45%
+} */
