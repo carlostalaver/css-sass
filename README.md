@@ -11,19 +11,19 @@ _Que cosas necesitas para instalar el software y como instalarlas_
   * [Sass](https://sass-lang.com/)        - 4.9.0
 
 ## Para configurar el proyecto:
-  *  npm init -y (Para crear el archivo package.json)
-  *  npm install node-sass@4.9.0  [-g]
+  * **npm init -y** (Para crear el archivo package.json)
+  *  **npm install** node-sass@4.9.0  [-g]
 
 
 ### En el archivo package.json incluir 
-    _Para establecer el guardado automatico_
-    ```
-          "scripts": {
-            "test": "echo \"Error: no test specified\" && exit 1",
-            "sass": "node-sass -w sass / -o css /"
-          }
-    ```
-    _para compile automaticamente de sass a css._
+  _Para establecer el guardado automatico_
+  ```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass / -o css /"
+  }
+  ```
+  _para compile automaticamente de sass a css._
   
   ## Nota: para solventar el error al guardar automaticamente
   
